@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{8473f2d0-958e-4a8e-8e35-5cda81fea701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{bf5f56f5-1c40-4447-9064-6ff7a6e3de81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player">
+      <UniqueIdentifier>{ff634392-fe40-4b17-a25a-a139a673d72e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Bullet">
+      <UniqueIdentifier>{34df0e5a-7e58-4d01-a646-43084eae40ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Monster">
+      <UniqueIdentifier>{f72d58f4-8fbe-498a-8580-0272db88b3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Mouse">
+      <UniqueIdentifier>{3ae287f0-bc14-44ee-ae33-712018a964ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Shield">
+      <UniqueIdentifier>{b8f0da09-d6f7-46b1-a3dc-2d8e21ae951a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Bullet\00. ScrewBullet">
+      <UniqueIdentifier>{dd41aa82-9050-437d-9c02-918bc5629fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Bullet\01. GuideBullet">
+      <UniqueIdentifier>{48a2240a-b3b3-4d49-9a63-a7993d3f55f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Design">
+      <UniqueIdentifier>{a226b3ee-2020-4ae5-82c6-807672fd9253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Design\00. AbstractFactory">
+      <UniqueIdentifier>{88e35c8f-e507-4ff1-bb4f-8ee3eea42be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Design\01. CollisionMgr">
+      <UniqueIdentifier>{1483244f-95bb-42e5-a4eb-90592ce1a3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Design\02. ObjMgr">
+      <UniqueIdentifier>{40d66b68-a3b2-4191-b77c-908bd50ca7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Design\03. LineMgr">
+      <UniqueIdentifier>{c4929619-da7d-4a98-9caa-2956f7a303bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Design\03. LineMgr\Line">
+      <UniqueIdentifier>{808c166c-fd4f-4342-a616-4d8e8aa26343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Design\03.KeyMgr">
+      <UniqueIdentifier>{ed22161f-5f63-4ba4-8c91-e1a224957cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{27755213-f12e-4087-bf57-b6e6ca23d42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Design\04.SceneMgr">
+      <UniqueIdentifier>{514cc6df-b207-48ba-bea1-aba7945e6dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Design\05.ScrollMgr">
+      <UniqueIdentifier>{ee58e15d-89bb-4350-b034-42975266fed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Box">
+      <UniqueIdentifier>{1ff1d742-c242-43e3-9974-61aab7b839a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Design\06.Camera">
+      <UniqueIdentifier>{acae6d96-9f40-4d8c-a449-87cec30e2f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Animator">
+      <UniqueIdentifier>{4dada836-5195-48b3-907a-700bd860a739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Animator\00. Animation">
+      <UniqueIdentifier>{a477f144-490b-47f7-9037-23aafcf55b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Resource">
+      <UniqueIdentifier>{6bbed09b-2d6b-42ab-a6ae-f36ae0004e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Resource\00. Texture">
+      <UniqueIdentifier>{1d973450-0070-496d-8101-ff64c9155d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01. CScene_henesis0">
+      <UniqueIdentifier>{627af75a-b0a1-4785-891d-34538278706b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\00.CScene_henesis3">
+      <UniqueIdentifier>{cf953e20-804e-492c-a68e-8c61fac66546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02. CScene_henesis1">
+      <UniqueIdentifier>{f3459b19-5902-4531-8cd4-9e5bab8a6d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03. CScene_henesis2">
+      <UniqueIdentifier>{bc04e3fb-13b0-4152-b1c9-7aa247a5ebe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Monster\00.henesis3_Mon">
+      <UniqueIdentifier>{b45b67c1-efe1-44a8-a28c-45f62f2722d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\06.MonsterUI">
+      <UniqueIdentifier>{987188f1-d251-43d9-b3ba-ea3c2cedcc98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Monster\01.Boss">
+      <UniqueIdentifier>{714d6568-7a7c-45ad-b286-223151b4108a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Monster\01.henesis2_Mon">
+      <UniqueIdentifier>{5b598887-8fcd-426e-beda-210892bb41fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Monster\02.henesis1_Mon">
+      <UniqueIdentifier>{bdf02c01-f3fb-45ac-a0e5-815cacd05e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Monster\02.henesis0_Mon">
+      <UniqueIdentifier>{f6dae7d6-6fc6-45be-bac8-5400698a3217}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01. Obj\01. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. Obj\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>01. Obj\02. Design\00. AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01. Obj\03. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>01. Obj\02. Design\01. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>01. Obj\04. Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrewBullet.h">
+      <Filter>01. Obj\01. Bullet\00. ScrewBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>01. Obj\02. Design\02. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideBullet.h">
+      <Filter>01. Obj\01. Bullet\01. GuideBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>01. Obj\02. Design\03. LineMgr\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMgr.h">
+      <Filter>01. Obj\02. Design\03. LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>01. Obj\02. Design\03.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_henesis3.h">
+      <Filter>02.Scene\00.CScene_henesis3</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>01. Obj\02. Design\04.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CScrollMgr.h">
+      <Filter>01. Obj\02. Design\05.ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CBox.h">
+      <Filter>01. Obj\05. Box</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>01. Obj\02. Design\06.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>04. Animator\00. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>04. Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>05. Resource\00. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_henesis0.h">
+      <Filter>02.Scene\01. CScene_henesis0</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_henesis1.h">
+      <Filter>02.Scene\02. CScene_henesis1</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_henesis2.h">
+      <Filter>02.Scene\03. CScene_henesis2</Filter>
+    </ClInclude>
+    <ClInclude Include="CHenesis3_Mon.h">
+      <Filter>01. Obj\02. Monster\00.henesis3_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonUI.h">
+      <Filter>01. Obj\06.MonsterUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CHenesis3_Boss.h">
+      <Filter>01. Obj\02. Monster\01.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CHenesis2_Mon.h">
+      <Filter>01. Obj\02. Monster\01.henesis2_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="CHenesis2_Boss.h">
+      <Filter>01. Obj\02. Monster\01.henesis2_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="CHenesis1_Mon.h">
+      <Filter>01. Obj\02. Monster\02.henesis1_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0Mon10.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0Mon11.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0Mon12.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0Mon13.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0Mon20.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0Mon21.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0Mon22.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0Mon23.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0Mon24.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0Mon25.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0_Boss.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0_Boss1.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0_Boss2.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0_Boss3.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0_Boss4.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="Henesis0_Boss5.h">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01. Obj\01. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. Obj\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01. Obj\03. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>01. Obj\02. Design\01. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>01. Obj\04. Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrewBullet.cpp">
+      <Filter>01. Obj\01. Bullet\00. ScrewBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>01. Obj\02. Design\02. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideBullet.cpp">
+      <Filter>01. Obj\01. Bullet\01. GuideBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>01. Obj\02. Design\03. LineMgr\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMgr.cpp">
+      <Filter>01. Obj\02. Design\03. LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>01. Obj\02. Design\03.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_henesis3.cpp">
+      <Filter>02.Scene\00.CScene_henesis3</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>01. Obj\02. Design\04.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CScrollMgr.cpp">
+      <Filter>01. Obj\02. Design\05.ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CBox.cpp">
+      <Filter>01. Obj\05. Box</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>01. Obj\02. Design\06.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>04. Animator\00. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>04. Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>05. Resource\00. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_henesis0.cpp">
+      <Filter>02.Scene\01. CScene_henesis0</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_henesis1.cpp">
+      <Filter>02.Scene\02. CScene_henesis1</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonUI.cpp">
+      <Filter>01. Obj\06.MonsterUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_henesis2.cpp">
+      <Filter>02.Scene\03. CScene_henesis2</Filter>
+    </ClCompile>
+    <ClCompile Include="CHenesis3_Boss.cpp">
+      <Filter>01. Obj\02. Monster\01.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CHenesis2_Mon.cpp">
+      <Filter>01. Obj\02. Monster\01.henesis2_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="CHenesis2_Boss.cpp">
+      <Filter>01. Obj\02. Monster\01.henesis2_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="CHenesis1_Mon.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis1_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0Mon10.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0Mon11.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0Mon12.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0Mon13.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0Mon20.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0Mon21.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0Mon22.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0Mon23.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0Mon24.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0Mon25.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0_Boss1.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0_Boss2.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0_Boss3.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0_Boss4.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0_Boss5.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="Henesis0_Boss.cpp">
+      <Filter>01. Obj\02. Monster\02.henesis0_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="CHenesis3_Mon.cpp">
+      <Filter>01. Obj\02. Monster\00.henesis3_Mon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefaultWindow.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DefaultWindow.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
